@@ -8,7 +8,7 @@ body {
 }
 
 .acceuil {
-    background-image: url('pexels-photo-2738173.jpeg');
+    background-image: url('/IMAGE/pexels-photo-2738173.jpeg');
     opacity: 0.5;
     background-size: cover;
     background-position: center;
