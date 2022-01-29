@@ -26,26 +26,29 @@
     margin: 0;
 }
 
-  .navbar a {
-    padding: 9px 0;
+.navbar a {
+    padding-top: 5px;
     border-left: 1px solid #ccc9c9;
     text-decoration: none;
     color: white;
     display: block;
-  }
-  .navbar li:hover,
-  a:hover {
-    background-color: #444444;
-  }
-  .navbar li ul {
+}
+
+.navbar li:hover,
+a:hover {
+    background-color: rgba(0, 26, 112, 0.5);
+}
+
+.navbar li ul {
     display: none;
     height: auto;
     margin: 0;
     padding: 0;
-  }
-  .navbar li:hover ul {
+}
+
+.navbar li:hover ul {
     display: block;
-  }
+}
   .navbar li ul li {
     background-color: #444444;
   }
