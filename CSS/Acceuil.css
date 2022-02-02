@@ -1,31 +1,41 @@
-body {
-    padding: 0px;
-    margin: 0px;
+body{
     background: rgb(0, 26, 112);
+    overflow-x: hidden;
 }
 .description{
-    color : rgb(0, 26, 112)
+    color: rgb(0, 26, 112);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    transform : translate(0%,90%);
+    font-size: 25px;
 }
+.titre{
+    font-weight: 900;
+}
+
+
 
 .acceuil {
-    background-image: url('/IMAGE/pexels-photo-2738173.jpeg');
-    opacity: 0.3;
+    background-image: url('../IMAGE/pexels-photo-2738173.jpeg'); /* .. parce que on retourne sur un dossier */
+    background-repeat: none ;
     background-size: cover;
-    background-position: center;
-    position: relative;
+    opacity: .7;
     height:100vh;
-    width:100wh;
+    width: 100%;
+
 }
 
-.overlay {
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0px;
-    top: 0px;
-    background-color: rgba(0, 0, 0, 0.4);
+.footgauche{
+    color: white;
+    font-family: Arial, sans-serif;
+    float: left;
+    margin-top: 10px;
 }
 
-.page-footer{
-    background-color: rgba(0, 26, 112, 0.5); 
+.footdroit{
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: right;
+    float: right;
 }
