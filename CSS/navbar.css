@@ -27,7 +27,7 @@
 }
 
 .navbar a {
-    padding-top: 5px;
+    padding-top: 11px;
     border-left: 1px solid #ccc9c9;
     text-decoration: none;
     color: white;
@@ -45,19 +45,15 @@ a:hover {
     margin: 0;
     padding: 0;
 }
-
-.navbar li:hover ul {
-    display: block;
+#map {
+  position: relative;
+  left: 1162px;
 }
-  .navbar li ul li {
-    background-color: #444444;
-  }
-  .navbar li ul li a {
-    border-left: 1px solid #444444;
-    border-right: 1px solid #444444;
-    border-top: 1px solid #c9d4d8;
-    border-bottom: 1px solid #444444;
-  }
-  .navbar li ul li a:hover {
-    background-color: #a3a1a1;
-  }
+#connexion {
+  position: relative;
+  left: 1162px;
+}
+#decouvrir {
+  position: relative;
+  left: 1162px;
+}
