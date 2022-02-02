@@ -1,5 +1,6 @@
 body{
-    background: rgb(0, 26, 112);
+    z-index: 99;
+    background: rgb(0, 26, 112); 
     overflow-x: hidden;
 }
 .description{
@@ -20,7 +21,7 @@ body{
     background-image: url('../IMAGE/pexels-photo-2738173.jpeg'); /* .. parce que on retourne sur un dossier */
     background-repeat: none ;
     background-size: cover;
-    opacity: .7;
+    opacity: .8;
     height:100vh;
     width: 100%;
 
@@ -43,10 +44,11 @@ body{
 #wrap {
     width: 100%;
     height: 60px;
-    margin: 0;
-    z-index: 99;
-    position: relative;
-    background-color: rgba(0, 26, 112, 0.5); 
+    position:fixed;
+    z-index: 98;
+    background-color: rgba(0, 26, 112, 0.5);
+    top: 0;
+    left: 0; 
 
 }
 
@@ -54,7 +56,7 @@ body{
     height: 60px;
     padding: 0;
     margin: 0;
-    position: absolute;
+    
 }
 
 .navbar li {
@@ -71,6 +73,7 @@ body{
 .navbar a {
     padding-top: 11px;
     border-left: 1px solid #ccc9c9;
+    
     text-decoration: none;
     color: white;
     display: block;
@@ -89,13 +92,13 @@ a:hover {
 }
 #map {
   position: relative;
-  left: 1162px;
+  left: 1155px;
 }
 #connexion {
   position: relative;
-  left: 1162px;
+  left: 1155px;
 }
 #decouvrir {
   position: relative;
-  left: 1162px;
+  left: 1155px;
 }
