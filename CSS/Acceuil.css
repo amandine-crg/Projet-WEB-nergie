@@ -15,8 +15,6 @@ body{
     font-weight: 900;
 }
 
-
-
 .acceuil {
     background-image: url('../IMAGE/pexels-photo-2738173.jpeg'); /* .. parce que on retourne sur un dossier */
     background-repeat: none ;
