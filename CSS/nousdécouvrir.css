@@ -2,7 +2,7 @@ body{
     /*z-index: 99;
     background: rgb(255, 255, 255);
     overflow-x: hidden;*/
-    background-image: url('../IMAGE/pexels-kelly-l-2530317.jpg'); /* .. parce que on retourne sur un dossier */
+    background-image: url('../IMAGE/decouvrir_background.png'); /* .. parce que on retourne sur un dossier */
     background-repeat: none ;
     position: fixed;
     background-size: cover;
@@ -47,14 +47,13 @@ body{
     position:fixed;
     z-index: 98;
     background-color: rgba(0, 26, 112, 0.5);
-    
     top: 0;
     left: 0; 
-
 }
 
+
 .navbar {
-    height: 60px;
+    height: 70px;
 
     padding: 0;
     margin: 0;
