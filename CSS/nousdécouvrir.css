@@ -1,7 +1,15 @@
 body{
-    z-index: 99;
+    /*z-index: 99;
     background: rgb(255, 255, 255);
-    overflow-x: hidden;
+    overflow-x: hidden;*/
+    background-image: url('../IMAGE/pexels-kelly-l-2530317.jpg'); /* .. parce que on retourne sur un dossier */
+    background-repeat: none ;
+    position: fixed;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .page-footer{
