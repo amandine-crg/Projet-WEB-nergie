@@ -49,8 +49,8 @@ body{
 .footdroit{
     color: white;
     font-family: Arial, sans-serif;
-    text-align: right;
     float: right;
+    margin-top: 45px;
     padding-left: 10px;
     padding-right: 10px;
 }
