@@ -18,7 +18,7 @@ body{
     bottom: 0;
     right: 0;
     width: 100%;
-    height: 125px;
+    height: 60px;
     
    
 }
@@ -27,19 +27,24 @@ body{
     color: white;
     font-family: Arial, sans-serif;
     float: left;
-    margin-top: 10px;
+    margin-top: -10px;
     padding-left: 10px;
     padding-right: 10px;
+}
+.footcenter {
+    margin-top: 5px;
+    margin-left: 850px;
 }
 
 .footdroit{
     color: white;
     font-family: Arial, sans-serif;
-    text-align: right;
     float: right;
+    margin-top: -60px;
     padding-left: 10px;
     padding-right: 10px;
 }
+
 
 #wrap {
     width: 100%;
