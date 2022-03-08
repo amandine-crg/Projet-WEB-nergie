@@ -93,18 +93,18 @@ a:hover {
     padding: 0;
 }
 #map {
-  position: relative;
-  left:55%;
-
-}
-#connexion {
-  position: relative;
-  left: 55%;
-}
-#decouvrir {
-  position: relative;
-  left: 55%;
-}
+    position: relative;
+    left:57%;
+  
+  }
+  #connexion {
+    position: relative;
+    left: 57%;
+  }
+  #decouvrir {
+    position: relative;
+    left: 57%;
+  }
 
 #carteinteractive {
     position: relative;

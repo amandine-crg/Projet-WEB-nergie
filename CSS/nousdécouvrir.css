@@ -94,16 +94,16 @@ a:hover {
 }
 #map {
   position: relative;
-  left:55%;
+  left:57%;
 
 }
 #connexion {
   position: relative;
-  left: 55%;
+  left: 57%;
 }
 #decouvrir {
   position: relative;
-  left: 55%;
+  left: 57%;
 }
 
 .titre{
@@ -123,6 +123,8 @@ a:hover {
     font-family: Arial, sans-serif;
     transform : translate(0%,90%);
     font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .lien{
