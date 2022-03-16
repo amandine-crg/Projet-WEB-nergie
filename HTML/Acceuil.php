@@ -6,9 +6,12 @@
 </head>
 
 <body>
+    <?php $totalCategorie = mysqli_query($con, "SELECT * FROM connexion"); 
+    if($totalCat = mysqli_fetch_assoc($totalCategorie)){
+                    $totalCategorie= $totalCat['nom'];?>
     <div id="wrap">
         <ul class="navbar">
-            
+            <?php echo $totalCategorie ?>
             <li>
                 <a style="height: 49px;" href="../HTML/Acceuil.html">
                     <img src="../IMAGE/logoEDF.png" width="87" alt="edfmap.cm" title="Acceuil"/>
