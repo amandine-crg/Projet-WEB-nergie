@@ -18,7 +18,7 @@ body {
   left: 50%;
 }
 
-form {
+#box {
   background: rgba(255, 255, 255, 0.3);
   padding: 3em;
   height: 320px;
@@ -33,7 +33,7 @@ form {
   transition: all 0.2s ease-in-out;
 }
 
-form p {
+#box p {
   font-weight: 500;
   color: #fff;
   opacity: 0.7;
@@ -42,22 +42,21 @@ form p {
   margin-bottom: 60px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
-
-form a {
+#box a {
   text-decoration: none;
   color: #ddd;
   font-size: 12px;
 }
 
-form a:hover {
+#box a:hover {
   text-shadow: 2px 2px 6px #00000040;
 }
 
-form a:active {
+#box a:active {
   text-shadow: none;
 }
 
-form input {
+#box input {
   background: transparent;
   width: 200px;
   padding: 1em;
@@ -76,31 +75,31 @@ form input {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-form input:hover {
+#box input:hover {
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
 }
 
-form input[type=email]:focus, form input[type=password]:focus {
+#box input[type=email]:focus, form input[type=password]:focus {
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
 }
 
-form input[type=button] {
+#box input[type=button] {
   margin-top: 10px;
   width: 150px;
   font-size: 1rem;
 }
 
-form input[type=button]:hover {
+#box input[type=button]:hover {
   cursor: pointer;
 }
 
-form input[type=button]:active {
+#box input[type=button]:active {
   background: rgba(255, 255, 255, 0.2);
 }
 
-form:hover {
+#box:hover {
   margin: 4px;
 }
 
@@ -189,7 +188,7 @@ button:focus {
   height: 60px;
   position:fixed;
   z-index: 98;
-  background-color: rgba(0, 26, 112, 0.3);
+  background-color: rgba(64,101,156,0.3);
   top: 0;
   left: 0; 
 
@@ -216,7 +215,7 @@ button:focus {
 
 .navbar a {
   padding-top: 11px;
-  border-left: 1px solid #ccc9c9;
+  border-left: 1px solid white;
   
   text-decoration: none;
   color: white;
@@ -226,7 +225,7 @@ button:focus {
 
 .navbar li:hover,
 a:hover {
-  background-color: #001A70;
+  background-color: #64bdf7;
 }
 
 .navbar li ul {
@@ -237,14 +236,14 @@ a:hover {
 }
 #map {
   position: relative;
-  left:57%;
+  left:63%;
 
 }
 #connexion {
   position: relative;
-  left: 57%;
+  left: 63%;
 }
 #decouvrir {
   position: relative;
-  left: 57%;
+  left: 63%;
 }

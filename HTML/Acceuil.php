@@ -6,27 +6,33 @@
 </head>
 
 <body>
-    <?php $totalCategorie = mysqli_query($con, "SELECT * FROM connexion"); 
-    if($totalCat = mysqli_fetch_assoc($totalCategorie)){
-                    $totalCategorie= $totalCat['nom'];?>
+    
     <div id="wrap">
         <ul class="navbar">
-            <?php echo $totalCategorie ?>
+            
             <li>
-                <a style="height: 49px;" href="../HTML/Acceuil.html">
+                <a style="height: 49px;" href="../HTML/Acceuil.php">
                     <img src="../IMAGE/logoEDF.png" width="87" alt="edfmap.cm" title="Acceuil"/>
                 </a>
             </li>
             <li id="map">
-                <a style="height: 49px;" href="../HTML/map_eolien.html">
+                <a style="height: 49px;" href="../HTML/map_eau.php">
                     <img src="../IMAGE/carteFrancewhite.png" width="39" alt="carteFrance.cm" title="Notre Carte"/>
                 </a>
             </li>
             <li id="connexion">
-                <a style="height: 49px;" href="../HTML/connexion.html">CONNEXION</a>
+                <?php
+                    session_start();
+                    if(!isset($_SESSION["username"])){
+                        echo '<a style="height: 49px;" href="../HTML/deconnexion.php">CONNEXION</a>';
+                    }
+                    else {
+                        echo '<a style="height: 49px;" href="../HTML/connexion.php">DECONNEXION</a>';
+                    }
+                ?>
             </li>
             <li id="decouvrir">
-                <a style="height: 49px;" href="../HTML/nousdécouvrir.html">NOUS DÉCOUVRIR</a>
+                <a style="height: 49px;" href="../HTML/nousdécouvrir.php">NOUS DÉCOUVRIR</a>
             </li>
         </ul>
     </div>
@@ -47,7 +53,7 @@
     <footer class="page-footer">
         <footer class="page-footer">
             <div class="footgauche">
-                <p class="nous">Qui sommes nous ? <br> <a href="../HTML/nousdécouvrir.html">Nous découvrir</a></p>
+                <p class="nous">Qui sommes nous ? <br> <a href="../HTML/nousdécouvrir.php" style="color : #ffffff" style="text-decoration:none">Nous découvrir </a></p>
             </div>
             <div class="footcenter">
                 <img src="../IMAGE/logoEDFwhite.png" alt="logoblanc.cm" title="logoblanc" height="40px" width="90px"/>

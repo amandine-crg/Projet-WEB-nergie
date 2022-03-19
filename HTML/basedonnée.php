@@ -1,12 +1,15 @@
-
 <?php
-
-    $con = mysqli_connect("localhost","root","","edf_map");
-
-    // verif de la cnx
-    if (mysqli_connect_errno())
-    {
-    echo "Erreur de connexion à MySql: " . mysqli_connect_error();
-    }
-
+// Informations d'identification
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_NAME', 'edf_map');
+ 
+// Connexion à la base de données MySQL 
+$conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+ 
+// Vérifier la connexion
+if($conn === false){
+    die("ERREUR : Impossible de se connecter. " . mysqli_connect_error());
+}
 ?>
